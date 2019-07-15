@@ -26,7 +26,7 @@ public class excelDriven {
 	public void addBook() throws IOException
 	{
 		dataDriven d=new dataDriven();
-		ArrayList data=d.getData("RestAddbook","RestAssured");
+		ArrayList data=d.getData("login","testdata");
 		
 		
 		HashMap<String, Object>  map = new HashMap<>();

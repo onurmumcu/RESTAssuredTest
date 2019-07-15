@@ -23,7 +23,7 @@ public class dataDriven {
 		//fileInputStream argument
 				ArrayList<String> a=new ArrayList<String>();
 				
-				FileInputStream fis=new FileInputStream("C://Users//rahul//Documents//demodata.xlsx");
+				FileInputStream fis=new FileInputStream("demoData.xlsx");
 				XSSFWorkbook workbook=new XSSFWorkbook(fis);
 				
 				int sheets=workbook.getNumberOfSheets();
@@ -100,7 +100,7 @@ public class dataDriven {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+dataDriven dd = new dataDriven();
 		
 	}
 
